@@ -4,6 +4,11 @@ const gridDom = document.getElementById('grid');
 const playDom = document.getElementById('play');
 const resetDom = document.getElementById('reset');
 
+playDom.addEventListener('click', function(){
+  gridDom.innerHTML = "";
+
+})
+
 resetDom.addEventListener('click', function(){
   gridDom.innerHTML = "";
 
@@ -29,6 +34,7 @@ playDom.addEventListener('click', function(){
       );
       gridDom.append (currentElement);
     }
+    
 })
 
 

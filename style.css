@@ -46,6 +46,8 @@ footer{
     height: 20px;
     margin: auto;
     background-color: white;
+    display: flex;
+    justify-content: space-around;
 }
 
 
