@@ -4,9 +4,12 @@ const gridDom = document.getElementById('grid');
 const playDom = document.getElementById('play');
 
 playDom.addEventListener('click', function(){
-  for (let i = 0; i < 100; i++) {
+  for (let i = 1; i < 101; i++) {
+    const number = i
+    console.log(number)
 
     const currentElement = createSquare();
+    
     
     
     
@@ -26,12 +29,19 @@ playDom.addEventListener('click', function(){
     }
     
     
-    function createSquare(){
+    function createSquare(number){
       const currentElement = document.createElement('div');
       currentElement.classList.add('square');
+      currentElement.innerHTML = number;
+      
+
+
       return currentElement;
     
     }
+
+    
+    
 
 })
 
