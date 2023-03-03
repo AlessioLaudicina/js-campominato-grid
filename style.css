@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: aquamarine;
-}
-
 header{
     height: 100px;
     background-color: white;
@@ -17,7 +13,9 @@ header{
 }
 
 main{
-    padding-top: 50px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    height: 80vh;
 }
 
 
@@ -42,6 +40,12 @@ main{
 
 .clicked{
     background-color: red;
+}
+
+footer{
+    height: 20px;
+    margin: auto;
+    background-color: white;
 }
 
 
