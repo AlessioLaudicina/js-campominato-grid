@@ -1,6 +1,5 @@
 const gridDom = document.getElementById('grid');
 
-let numberBlacklist = [];
 
 const playDom = document.getElementById('play');
 
