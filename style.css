@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+main{
+    padding-top: 50px;
+}
+
+
+#grid{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: calc(600px / 10);
+    height: calc(600px / 10);
+    border:2px solid red;
+    background-color: aqua;
+
+}
+
+.clicked{
+    background-color: red;
+}
+
+
+
