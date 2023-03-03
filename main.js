@@ -8,7 +8,7 @@ playDom.addEventListener('click', function(){
     const number = i
     console.log(number)
 
-    const currentElement = createSquare();
+    const currentElement = createSquare(number);
     
     
     
